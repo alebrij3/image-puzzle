@@ -11,6 +11,8 @@ body {
   justify-content: center;
 }
 .puzzle {
+  background-image: url('duck.png');
+  background-size: cover;
   width: 100%;
   max-width: 400px;
   display: grid;
