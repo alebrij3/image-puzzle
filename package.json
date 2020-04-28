@@ -1,0 +1,26 @@
+{
+  "name": "image-puzzle",
+  "version": "1.0.0",
+  "description": "puzzle game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejvndrox/image-puzzle.git"
+  },
+  "keywords": [
+    "puzzle",
+    "game"
+  ],
+  "author": "Alejandro Jimenez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alejvndrox/image-puzzle/issues"
+  },
+  "homepage": "https://github.com/alejvndrox/image-puzzle#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
