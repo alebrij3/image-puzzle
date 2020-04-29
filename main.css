@@ -39,3 +39,6 @@ body {
   margin: 4px;
   font-size: 1rem;
 }
+.empty {
+  background-image: none;
+}
