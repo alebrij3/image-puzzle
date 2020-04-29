@@ -7,28 +7,29 @@
   <link rel="stylesheet" href="main.css">
 </head>
 <body>
-  <div class="puzzle">
-    <div class="tile" style="background-image: url('img/split-duck/1.png');">1</div>
-    <div class="tile" style="background-image: url('img/split-duck/2.png');">2</div>
-    <div class="tile" style="background-image: url('img/split-duck/3.png');">3</div>
-    <div class="tile" style="background-image: url('img/split-duck/4.png');">4</div>
-    <div class="tile" style="background-image: url('img/split-duck/5.png');">5</div>
-    <div class="tile" style="background-image: url('img/split-duck/6.png');">6</div>
-    <div class="tile" style="background-image: url('img/split-duck/7.png');">7</div>
-    <div class="tile" style="background-image: url('img/split-duck/8.png');">8</div>
-    <div class="tile" style="background-image: url('img/split-duck/9.png');">9</div>
-    <div class="tile" style="background-image: url('img/split-duck/10.png');">10</div>
-    <div class="tile" style="background-image: url('img/split-duck/11.png');">11</div>
-    <div class="tile" style="background-image: url('img/split-duck/12.png');">12</div>
-    <div class="tile" style="background-image: url('img/split-duck/13.png');">13</div>
-    <div class="tile" style="background-image: url('img/split-duck/14.png');">14</div>
-    <div class="tile" style="background-image: url('img/split-duck/15.png');">15</div>
-    <div class="tile">Empty</div>
+  <div id="puzzle-board" class="puzzle">
+    <div id="1" class="tile" style="background-image: url('img/split-duck/1.png');"><!-- 1 --></div>
+    <div id="2" class="tile" style="background-image: url('img/split-duck/2.png');"><!-- 2 --></div>
+    <div id="3" class="tile" style="background-image: url('img/split-duck/3.png');"><!-- 3 --></div>
+    <div id="4" class="tile" style="background-image: url('img/split-duck/4.png');"><!-- 4 --></div>
+    <div id="5" class="tile" style="background-image: url('img/split-duck/5.png');"><!-- 5 --></div>
+    <div id="6" class="tile" style="background-image: url('img/split-duck/6.png');"><!-- 6 --></div>
+    <div id="7" class="tile" style="background-image: url('img/split-duck/7.png');"><!-- 7 --></div>
+    <div id="8" class="tile" style="background-image: url('img/split-duck/8.png');"><!-- 8 --></div>
+    <div id="9" class="tile" style="background-image: url('img/split-duck/9.png');"><!-- 9 --></div>
+    <div id="10" class="tile" style="background-image: url('img/split-duck/10.png');"><!-- 10 --></div>
+    <div id="11" class="tile" style="background-image: url('img/split-duck/11.png');"><!-- 11 --></div>
+    <div id="12" class="tile" style="background-image: url('img/split-duck/12.png');"><!-- 12 --></div>
+    <div id="13" class="tile" style="background-image: url('img/split-duck/13.png');"><!-- 13 --></div>
+    <div id="14" class="tile" style="background-image: url('img/split-duck/14.png');"><!-- 14 --></div>
+    <div id="15" class="tile" style="background-image: url('img/split-duck/15.png');"><!-- 15 --></div>
+    <div id="16" class="tile empty"></div>
   </div>
   <div class="buttons">
     <button>Prev</button>
-    <button>Again</button>
+    <button id="scramble">Scramble</button>
     <button>Next</button>
   </div>
+  <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
