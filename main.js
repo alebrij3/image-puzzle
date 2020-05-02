@@ -1,15 +1,13 @@
 let emptyTile = document.getElementById('16');
 let puzzleBoard = document.getElementById('puzzle-board');
 const scramble = document.getElementById('scramble');
-function exchangeElements(element1, element2)
-{
-    var clonedElement1 = element1.cloneNode(true);
-    var clonedElement2 = element2.cloneNode(true);
-
+function exchangeElements(element1, element2) {
+    let clonedElement1 = element1.cloneNode(true);
+    let clonedElement2 = element2.cloneNode(true);
     puzzleBoard.replaceChild(clonedElement1, element2);
     puzzleBoard.replaceChild(clonedElement2, element1);
-
 }
+
 document.addEventListener('click', function(event) {
   emptyTile = document.getElementById('16');
 

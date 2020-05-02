@@ -34,15 +34,11 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.buttons {
-  display: flex;
-  max-width: 400px;
-}
 .buttons button {
-  width: 100%;
-  padding: 8px;
-  margin: 4px;
-  font-size: 1rem;
+  display: block;
+  padding: 5px;
+  margin: 20px auto;
+  font-size: 0.9rem;
 }
 .empty {
   background-image: none;
