@@ -2,7 +2,7 @@
 This is a 4x4 puzzle game with the image of a Duck
 
 ## Instructions
-The first time you see the image is how you should arrange the puzzle. [See the preview][#Preview]
+The first time you see the image is how you should arrange the puzzle. [See the preview](#Preview)
 
 Then you press the "Scramble" button to mix up the puzzle.
 
