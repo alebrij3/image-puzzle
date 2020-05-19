@@ -16,6 +16,7 @@ body {
   background-size: cover;
   width: 400px;
   max-width: 100%;
+  margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(4, 100px);
   grid-auto-rows: 100px;
@@ -24,6 +25,8 @@ body {
   .puzzle {
     grid-template-columns: repeat(4, 80px);
     grid-auto-rows: 80px;
+    margin: 10px auto;
+    width: 320px;
   }
 }
 .tile {
