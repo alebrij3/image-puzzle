@@ -33,7 +33,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #2d2d2d;
+  border: 1px solid #414141;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -45,4 +45,11 @@ body {
 }
 .empty {
   background-image: none;
+}
+#scramble {
+  background-color: #0DB104;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 3px;
 }
