@@ -11,7 +11,7 @@ This is a 4x4 puzzle game with the image of a Duck
 4. Click until you solve the puzzle!
 
 ## Play!
-[You can play here](https://alejvndrox.github.io/image-puzzle/)
+[You can play here](https://alebrij3.github.io/image-puzzle/)
 
 ## Preview
 ![duck puzzle](img/preview.png)
